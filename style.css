@@ -1,0 +1,172 @@
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255, 255, 255, .3);
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+.header{
+    background: var(--bg);
+    display: flex;
+    font-size: 22px;
+    border-bottom: var(--border);
+    padding: 0.5rem 25%;
+    /* position: fixed; */
+    height: 10%;
+    padding-top: 22px;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    color: white;
+}
+header a{
+    color: white;
+    padding: 16px;
+}
+.im{
+    color: white;
+    position: absolute;
+    left: 124px;
+}
+#book{
+    position: relative;
+    right: -434px;
+    width: 107px;
+    height: 37px;
+    border-radius: 45px;
+    color: #29d9d5;
+    background: black;
+    border: 2px solid #29d9d5;
+}
+#book1{
+    position: relative;
+    right: -17px;
+    width: 107px;
+    height: 37px;
+    border-radius: 45px;
+    color: #29d9d5;
+    background: black;
+    border: 2px solid #29d9d5;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    background-color: rgb(242 167 167);
+    max-height: 20vh;
+    position: relative;
+    top: 106px;
+    margin-left: 204px;
+    width: 1166px;
+    color: white;
+    padding: 33px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.set{
+    color: blue;
+}
+.set1{
+    color: var(--black);
+}
+.Item{
+    height: 100vh;
+    position: relative;
+    top: 118px;
+    margin-left: 71px;
+ }
+ .head-2{
+    color:black;
+    text-align: center;
+    font-size: 46px;
+}
+.Item .products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+.pro1{
+    /* padding: 27px 173px; */
+    border: var(--border);
+}
+.products img{
+    height: 400px;
+    width: 400px;
+    border-radius: 45px;
+    padding: 30px;
+}
+.demo{
+
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: repeat;
+    position: relative;
+    top: 250px;
+    width: 98vw;
+    height: 55vh;
+
+   
+} 
+.container{
+    position: relative;
+    top: 137px;
+    margin-left: 316px;
+    line-height: 30px;
+    color: white;
+}
+.prod-sec{
+    background-color:black;
+    position: relative;
+    top: 251px;
+   
+}
+.contact{
+    color: white;
+    display:flex;
+    font-size: 24px;
+    flex-direction: row;
+    gap: 269px;
+    line-height: 34px;
+    padding: 22px;
+}
+i{
+    color: blue;
+}
+.pos{
+    
+    position: absolute;
+    left: -305px;
+}
+.tag{
+    font-size: 38px;
+    text-align: center;
+    color: #29d9d5;
+    position: relative;
+    top: -48px;
+    left: -149px;
+}
+#ha{
+    font-size: 47px;
+    text-align: center;
+    margin-left: -175px;
+    margin-top: -21px;
+}
+.para1{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: -137px;
+}
+.mystyle{
+    font-size: 35px;
+    color: #29d9d5;
+}
